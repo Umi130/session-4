@@ -4,22 +4,31 @@
 
 html, body {
 	margin: 0;
+	font-family: sans-serif;
+	font-size: 14px;
 }
 
 header, footer {
-
+	padding-left: 40px;
+	background-color: 	#00CED1;
+	color :	#000080;
+	padding-top: 20px;
+	padding-bottom: 20px
 }
 
 .centered {
-
+	width: 50%;
+	margin: auto;
 }
 
 header .subtitle {
-
+	 margin: 0;
 }
 
 h1 {
-
+	text-transform: uppercase;
+	font-family: "Source Sans Pro";
+	font-size: 35px;
 }
 
 ul {
@@ -28,41 +37,52 @@ ul {
 }
 
 ul li {
-	width: 50%;
+	width: 40%;
 }
 
 main {
-
-}
+	width: 50%;
+	margin: auto;
+	}
 
 section {
 
 }
 
 h2 {
-
+	color: #00CED1;
+	border-bottom: 1px solid purple;
 }
 
 h3 {
-
+	color: #00CED1;
+	text-indent: 20px;
 }
 
-p {
-
+article p {
+	text-indent: 20px;
+	text-align: justify;
 }
 
 .details {
-
+	color: #00CED1;
 }
 
 .object {
-
+	font-weight: 600;
+	font-size: 14px;
 }
 
 .object:after {
 	content: " | ";
 }
 
+footer p {
+	text-align: justify;
+}
 footer h2 {
+	background-color: 	#00CED1;
+	color :	#000080;
+	border: 0;
 
 }
